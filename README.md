@@ -49,19 +49,19 @@ Logging into the honeypot webserver, I first went to the attack map where I coul
 <img src="https://github.com/KirkDJohnson/Honey-Pot-Lab/assets/164972007/ae7c8728-3436-4d22-8f17-34279efad144" height="80%" width="80%" alt="Honey Pot Lab"/>
 <br />
 <br />
-Text<br/>
+Showing the logs generated from the honeypot populate a kibana dashboard to allow futher investigation into the attacks<br/>
 <img src="https://github.com/KirkDJohnson/Honey-Pot-Lab/assets/164972007/0032748d-b8d4-491f-a4a0-39f9c52f96ef" height="80%" width="80%" alt="Honey Pot Lab"/>
 <br />
 <br />
-Text<br/>
+Lists the IPs of the top attackers to the sever in a table<br/>
 <img src="https://github.com/KirkDJohnson/Honey-Pot-Lab/assets/164972007/d37f619a-4ce9-4a15-b816-b8b7023f1110" height="80%" width="80%" alt="Honey Pot Lab"/>
 <br />
 <br />
-Text<br/>
+Conducted threat intelligence on the top attackers with Talos Intelligence showing the standings of the IPs<br/>
 <img src="https://github.com/KirkDJohnson/Honey-Pot-Lab/assets/164972007/36d86f3c-4da5-4869-b0bc-471f4682b2a1" height="80%" width="80%" alt="Honey Pot Lab"/>
 <br />
 <br />
-Text<br/>
+In Kibana practiced sorting and parsing logs with the ingested logs from the honeypot<br/>
 <img src="https://github.com/KirkDJohnson/Honey-Pot-Lab/assets/164972007/bb627c34-5a5c-4606-bb7d-fab80eed26bc" height="80%" width="80%" alt="Honey Pot Lab"/>
 <br />
 <br />
