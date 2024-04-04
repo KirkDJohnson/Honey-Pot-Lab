@@ -2,7 +2,7 @@
 
 
 
-<h2>Description</h2> This lab involved me creating a live honeypot sever using Vultr to create the instance and T-Pot for the honeypot. After launching the server with the desired configureation I needed to make a firewall group for the server to ensure only I would enter the admin and webpage for the server so I it gave me hadns on expierence configuring a fireall that allows all traffic to all ports except the range of ports where the admin and other pages were. Once the firewall was configureda nf T-Pot had fullyinstalled into the sever I removed the .iso and restarted the server. After the sever restart, interacting with the terminal provided the IPs used to access the backend webpages and I logged in and went first to the attack map. The attack map shows real-time attacks against the honeypot from accross the globe. The honeypot was also configured to send logs to Kibana/ElasticSearch in which a dashboard breaksown of the attackers is displayed where I can learn more about the aorigian of the attacks or parse throuhg the logs. Lastly, I conducted some threat intelligence on the top attackers using Cisco Tallos Intelligence and found most of the being known attackers or spammers. 
+<h2>Description</h2> This lab involved creating a live honeypot server using Vultr to establish the instance and T-Pot for the honeypot. After launching the server with the desired configuration, I needed to create a firewall group for the server to ensure that only I could access the admin and webpage for the server. This provided hands-on experience in configuring a firewall that allows all traffic to all ports except for the range of ports where the admin and other pages were located. Once the firewall was configured and T-Pot was fully installed into the server, I removed the .iso and restarted the server. After the server restart, interacting with the terminal provided the IPs used to access the backend webpages. I logged in and first went to the attack map, which shows real-time attacks against the honeypot from across the globe. The honeypot was also configured to send logs to Kibana/ElasticSearch, where a dashboard breakdown of the attackers is displayed, allowing me to learn more about the origin of the attacks or parse through the logs. Lastly, I conducted some threat intelligence on the top attackers using Cisco Talos Intelligence and found that most of them were known attackers or spammers.
 
 <br />
 
@@ -21,27 +21,31 @@
 <h2>Lab Overview</h2>
 
 <p align="center">
-Text<br/>
+Creating the server instance on Vultr part 1<br/>
 <img src="https://github.com/KirkDJohnson/Honey-Pot-Lab/assets/164972007/b4e28d36-b288-4d8e-adcc-096b00d79412)" height="80%" width="80%" alt="Honey Pot Lab"/>
 <br />
 <br />
-Text<br/>
+Creating the server on Vultr after uploading and selecting the T-Pot .iso <br/>
 <img src="https://github.com/KirkDJohnson/Honey-Pot-Lab/assets/164972007/8bd43332-6502-4c75-bf6b-affb04867073" height="80%" width="80%" alt="Honey Pot Lab"/>
 <br />
 <br />
-Text<br/>
+Creating a firewall group to only allow my IP to access the specified port range for Vultr severs while allowing all other traffic on all ports<br/>
 <img src="https://github.com/KirkDJohnson/Honey-Pot-Lab/assets/164972007/b0ba5d27-2a52-4d03-aaec-3e520cb1cc40" height="80%" width="80%" alt="Honey Pot Lab"/>
 <br />
-<br />Text<br/>
+<br />
+Launching the server and configuring T-Pot<br/>
 <img src="https://github.com/KirkDJohnson/Honey-Pot-Lab/assets/164972007/fb9a268f-a3f8-4b8f-91c4-7416453fa0a9" height="80%" width="80%" alt="Honey Pot Lab"/>
 <br />
-<br />Text<br/>
+<br />
+After the server launched and I configured T-Pot I removed the .iso from the server<br/>
 <img src="https://github.com/KirkDJohnson/Honey-Pot-Lab/assets/164972007/f7178354-2eb5-4bc0-9d88-339b944e02c8" height="80%" width="80%" alt="Honey Pot Lab"/>
 <br />
-<br />Text<br/>
+<br />
+After the server launched, interacting with the terminal would provide me with the information to access the server webpage (hxxps[://]149[.]28[.]208[.]132:64297) <br/>
 <img src="https://github.com/KirkDJohnson/Honey-Pot-Lab/assets/164972007/0de92319-a75f-4ba0-9610-5ac571269ad2" height="80%" width="80%" alt="Honey Pot Lab"/>
 <br />
-<br />Text<br/>
+<br />
+Logging into the honeypot webserver, I first went to the attack map where I could see attacks against the server in real-time<br/>
 <img src="https://github.com/KirkDJohnson/Honey-Pot-Lab/assets/164972007/ae7c8728-3436-4d22-8f17-34279efad144" height="80%" width="80%" alt="Honey Pot Lab"/>
 <br />
 <br />
@@ -64,7 +68,7 @@ Text<br/>
 
 
 <h2>Thoughts</h2>
-This lab was extremely fun to setup and run. It was nice to become familiar with setting up a cloud instance and was suprised at how easy it was. Thankfully, using Vultr I used a referral code to get $100 credit so completing the lab was free of charge. The highest was definitely watching the attack map live. I was actually pretty suprised at the fact the highest attacking country was the United States, I would of thought it would be Russia or China. Not only did the lab expland my knowledge of setting up a honeypot instance it also gave me hands on experience with kibana by sorting/filtering the logs that were injested from the honeypot and being able to create tables using different inputs such as source IP, destination port and so on, which would be a great skill to have in a live enviornemnt. 
+This lab was incredibly enjoyable to set up and run. It was rewarding to gain familiarity with configuring a cloud instance, and I was pleasantly surprised by how straightforward the process was. Fortunately, I utilized a referral code with Vultr, which provided me with $100 credit, making the completion of the lab entirely cost-free. One of the highlights was observing the attack map in real-time. I was genuinely astonished to find that the United States emerged as the top attacking country. I had expected it to be Russia or China. This lab not only expanded my understanding of setting up a honeypot instance but also provided hands-on experience with Kibana. I was able to sort and filter the logs collected from the honeypot, and create tables using various parameters such as source IP and destination port. These skills would undoubtedly be invaluable in a live environment.
 <!--
  ```diff
 - text in red
