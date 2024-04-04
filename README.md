@@ -2,14 +2,15 @@
 
 
 
-<h2>Description</h2> This lab involved me 
+<h2>Description</h2> This lab involved me creating a live honeypot sever using Vultr to create the instance and T-Pot for the honeypot. After launching the server with the desired configureation I needed to make a firewall group for the server to ensure only I would enter the admin and webpage for the server so I it gave me hadns on expierence configuring a fireall that allows all traffic to all ports except the range of ports where the admin and other pages were. Once the firewall was configureda nf T-Pot had fullyinstalled into the sever I removed the .iso and restarted the server. After the sever restart, interacting with the terminal provided the IPs used to access the backend webpages and I logged in and went first to the attack map. The attack map shows real-time attacks against the honeypot from accross the globe. The honeypot was also configured to send logs to Kibana/ElasticSearch in which a dashboard breaksown of the attackers is displayed where I can learn more about the aorigian of the attacks or parse throuhg the logs. Lastly, I conducted some threat intelligence on the top attackers using Cisco Tallos Intelligence and found most of the being known attackers or spammers. 
 
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Vultr</b> 
+- <b>Vultr</b>
+- <b>T-Pot</b> 
 - <b>Kitbana</b>
 - <b>Elastic Search</b>
 
